@@ -1,12 +1,16 @@
 //assinment 1
-function area(b, h) {
-  return (area = 0.5 * b * h);
+let base=document.getElementById("base");
+let height= document.getElementById("height");
+let year=document.getElementById("year");
+function calcarea() {
+  document.getElementById("Area").innerHTML= 0.5*base.value*height.value
+  
 }
-console.log(area(10, 10));
+
 
 
 //assignment2
-function Calyear(year) {
-  return (Calyear = 365 * year);
+function convert() {
+  document.getElementById("Age").innerHTML= 365*year.value
 }
-console.log(Calyear(10));
+
